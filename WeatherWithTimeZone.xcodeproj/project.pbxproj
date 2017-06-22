@@ -12,6 +12,11 @@
 		E18809531EFB7F4400736924 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E18809511EFB7F4400736924 /* Main.storyboard */; };
 		E18809551EFB7F4400736924 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E18809541EFB7F4400736924 /* Assets.xcassets */; };
 		E18809581EFB7F4400736924 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E18809561EFB7F4400736924 /* LaunchScreen.storyboard */; };
+		E18809641EFB7F8C00736924 /* gradient0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E188095F1EFB7F8C00736924 /* gradient0.jpg */; };
+		E18809651EFB7F8C00736924 /* gradient1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E18809601EFB7F8C00736924 /* gradient1.jpg */; };
+		E18809661EFB7F8C00736924 /* gradient2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E18809611EFB7F8C00736924 /* gradient2.jpg */; };
+		E18809671EFB7F8C00736924 /* gradient3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E18809621EFB7F8C00736924 /* gradient3.jpg */; };
+		E18809681EFB7F8C00736924 /* gradient4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E18809631EFB7F8C00736924 /* gradient4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		E18809541EFB7F4400736924 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E18809571EFB7F4400736924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E18809591EFB7F4400736924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E188095F1EFB7F8C00736924 /* gradient0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gradient0.jpg; sourceTree = "<group>"; };
+		E18809601EFB7F8C00736924 /* gradient1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gradient1.jpg; sourceTree = "<group>"; };
+		E18809611EFB7F8C00736924 /* gradient2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gradient2.jpg; sourceTree = "<group>"; };
+		E18809621EFB7F8C00736924 /* gradient3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gradient3.jpg; sourceTree = "<group>"; };
+		E18809631EFB7F8C00736924 /* gradient4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gradient4.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 		E188094C1EFB7F4400736924 /* WeatherWithTimeZone */ = {
 			isa = PBXGroup;
 			children = (
+				E18809691EFB7F9100736924 /* Gradients */,
 				E188094D1EFB7F4400736924 /* AppDelegate.swift */,
 				E188094F1EFB7F4400736924 /* ViewController.swift */,
 				E18809511EFB7F4400736924 /* Main.storyboard */,
@@ -62,6 +73,18 @@
 				E18809591EFB7F4400736924 /* Info.plist */,
 			);
 			path = WeatherWithTimeZone;
+			sourceTree = "<group>";
+		};
+		E18809691EFB7F9100736924 /* Gradients */ = {
+			isa = PBXGroup;
+			children = (
+				E18809631EFB7F8C00736924 /* gradient4.jpg */,
+				E18809621EFB7F8C00736924 /* gradient3.jpg */,
+				E18809611EFB7F8C00736924 /* gradient2.jpg */,
+				E18809601EFB7F8C00736924 /* gradient1.jpg */,
+				E188095F1EFB7F8C00736924 /* gradient0.jpg */,
+			);
+			name = Gradients;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +149,12 @@
 			files = (
 				E18809581EFB7F4400736924 /* LaunchScreen.storyboard in Resources */,
 				E18809551EFB7F4400736924 /* Assets.xcassets in Resources */,
+				E18809651EFB7F8C00736924 /* gradient1.jpg in Resources */,
+				E18809661EFB7F8C00736924 /* gradient2.jpg in Resources */,
+				E18809671EFB7F8C00736924 /* gradient3.jpg in Resources */,
 				E18809531EFB7F4400736924 /* Main.storyboard in Resources */,
+				E18809641EFB7F8C00736924 /* gradient0.jpg in Resources */,
+				E18809681EFB7F8C00736924 /* gradient4.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
